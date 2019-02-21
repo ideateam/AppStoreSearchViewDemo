@@ -30,7 +30,7 @@
     self.backgroundColor = [UIColor whiteColor];
     
     UIImageView *leftImageView = [[UIImageView alloc] initWithFrame:CGRectMake(0, 0, self.frame.size.height - 20, self.frame.size.height - 20)];
-    leftImageView.image = [UIImage imageNamed:@""];
+    leftImageView.image = [UIImage imageNamed:@"search"];
     
     UITextField *searchTextTF = [[UITextField alloc] initWithFrame:CGRectMake(15, 0, self.frame.size.width - 30, self.frame.size.height - 25)];
     [self addSubview:searchTextTF];
